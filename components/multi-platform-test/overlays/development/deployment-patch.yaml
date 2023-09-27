@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: multi-platform-test
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/sdouglas1-tenant/multi-platform-test/multi-platform-test@sha256:b4cd4e9ec4c76a4b8f5f634428479e279d0435ca3a282f826554288d3fadc290
+        name: my-go
+        resources: {}
+status: {}
