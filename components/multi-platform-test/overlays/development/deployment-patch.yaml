@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/sdouglas1-tenant/multi-platform-test/multi-platform-test@sha256:b4cd4e9ec4c76a4b8f5f634428479e279d0435ca3a282f826554288d3fadc290
+      - image: quay.io/redhat-user-workloads-stage/sdouglas1-tenant/multi-platform-test/multi-platform-test@sha256:0cea2f840e40510b818c35eca0b1a85d52192ebf994f14cc6e50a54a9b7923dd
         name: my-go
         resources: {}
 status: {}
