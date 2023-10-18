@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: multi-platform-test
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/sdouglas1-tenant/multi-platform-test/multi-platform-test@sha256:0cea2f840e40510b818c35eca0b1a85d52192ebf994f14cc6e50a54a9b7923dd
+      - image: quay.io/redhat-user-workloads-stage/sdouglas1-tenant/multi-platform-test/multi-platform-test@sha256:fcdb29d03d863af6ccba912775b7b2901abf0b02549898baf572d323ebca9ca4
         name: my-go
         ports:
         - containerPort: 8081
