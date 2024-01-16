@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: multi-platform-test
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/sdouglas1-tenant/multi-platform-test/multi-platform-test@sha256:c5296ca439bb9d5474843ea06179120ebe2ff7dcf34ebc33f276ee711620e7a8
+      - image: quay.io/redhat-user-workloads-stage/sdouglas1-tenant/multi-platform-test/multi-platform-test@sha256:5a4c6ce5e07580531ba0ee1a0db67143ea8faad1024c32e3103935c3cef7bc20
         name: my-go
         resources: {}
 status: {}
